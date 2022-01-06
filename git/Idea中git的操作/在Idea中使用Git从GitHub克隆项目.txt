@@ -1,0 +1,3 @@
+在Idea中使用Git从GitHub克隆项目
+
+对应的项目右键git->pull

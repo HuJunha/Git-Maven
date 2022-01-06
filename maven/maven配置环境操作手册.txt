@@ -1,0 +1,17 @@
+maven配置环境操作手册
+
+1.在Idea中创建空的项目，配置maven模块，在setting中找到maven配置
+
+2.打开IntellJ IDEA\IntelliJ IDEA 2021.2.3\plugins\maven\lib\maven3\conf这个路径，找到setting.xml文件
+
+3.在文件中第55行（ <!-- 本地仓库的路径。默认值为${user.home}/.m2/repository>）下添加：
+		<localRepository>D:\LocalReponsitory</localRepository>
+   在文件中第159行添加：即在mirror标签里面添加子标签
+		<mirror>  
+      <id>alimaven</id> 
+      <mirrorOf>central</mirrorOf> 
+      <name>aliyun maven</name>  
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>;           
+     </mirror>
+
+5.在idea中的用户设置文件改为idea中的setting文件

@@ -1,0 +1,10 @@
+在Idea中使用Git切换版本
+
+改过的代码提交到暂存区
+如果想回退到之前提交的版本
+
+1.右键相应提交的版本 ->copy Revision Number(得到版本相应的哈希值)
+
+2.右键相应的模块选择Git->Reset Head
+	Reset Type选择Hard
+	To Commit：复制的哈希值

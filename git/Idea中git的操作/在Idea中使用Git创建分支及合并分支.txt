@@ -1,0 +1,11 @@
+在Idea中使用Git创建分支合并分支
+
+创建分支：
+右键相应模块选择Git->Branches..->new Branches
+
+
+切换分支：
+右键相应模块选择Git->Branches..->Local Branches目录下选择相应的分支点击->check out
+
+合并分支：
+右键相应模块选择Git->Merge Changes..->选择相应的分支

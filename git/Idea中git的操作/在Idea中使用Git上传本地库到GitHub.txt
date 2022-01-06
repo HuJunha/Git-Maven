@@ -1,0 +1,5 @@
+在Idea中使用Git上传本地库到GitHub
+
+在GitHub官网上创建相对应的模块，复制其对应的地址
+
+要上传的模块右键git->push 输入相应的URL即可

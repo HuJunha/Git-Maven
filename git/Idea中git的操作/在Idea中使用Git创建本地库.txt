@@ -1,0 +1,15 @@
+在Idea中使用Git创建本地库
+
+在Idea头部 vcs->Import into Version Control->create Git Repostory...(创建本地库）
+	选择对应模块上一级目录
+
+忽略.iml文件
+右键模块选择Git ->Add to .gitignore->.git/info/exclude
+	删除里面对应模块的相关信息
+		加上.idea
+		加上*.iml
+
+在模块右键选择Git->add（将文件添加到暂存区）
+
+文件提交到本地库：右上角Git：√（commit）
+	
